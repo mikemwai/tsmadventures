@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import logo from './logo.svg';
 import Navbar from './components/Navbar'
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router,  Routes, Route} from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
     <>
     <Router>
     <Navbar />
-    <Switch>
-      <Route path='/' exact />
-    </Switch>
+    <Routes>
+      <Route path="/" exact />
+    </Routes>
     </Router>
     </>
   );
