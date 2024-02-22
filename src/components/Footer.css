@@ -131,6 +131,10 @@
     align-items: center;
     margin-bottom: 16px;
   }
+
+  .footer-logo {
+    margin-right: 320px; 
+  }
   
   .website-rights {
     color: #fff;
