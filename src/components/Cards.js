@@ -23,7 +23,7 @@ function Cards() {
             />
             <CardItem
               src='images/img-7.jpg'
-              text='Travel through the Kenya without any limitations.'
+              text='Travel through Kenya without any limitations.'
               label='Freedom'
               path='/services'
             />
