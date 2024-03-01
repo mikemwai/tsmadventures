@@ -28,6 +28,12 @@
     display: flex;
     align-items: center;
   }
+
+  .navbar-logo-image {
+    height: 30px; 
+    width: 30px; 
+    margin-right: 10px;
+  }
   
   .fa-typo3 {
     margin-left: 0.5rem;

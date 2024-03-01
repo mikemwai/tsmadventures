@@ -3,6 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Footer
 () {
@@ -25,7 +27,7 @@ function Footer
         <div className="footer-links">
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>About Us</h2>
+                        <h2 style={{ textDecoration: 'underline' }}>About Us</h2>
                         <Link to='/sign-up'>How it works</Link>
                         <Link to='/'>Testimonials</Link>
                         <Link to='/'>Careers</Link>
@@ -33,7 +35,7 @@ function Footer
                         <Link to='/'>Terms of Service</Link>
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Contact Us</h2>
+                        <h2 style={{ textDecoration: 'underline' }}>Contact Us</h2>
                         <Link to='/'>Contact</Link>
                         <Link to='/'>Support</Link>
                         <Link to='/'>Destinations</Link>
@@ -42,18 +44,18 @@ function Footer
                 </div>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>Videos</h2>
+                        <h2 style={{ textDecoration: 'underline' }}>Videos</h2>
                         <Link to='/'>Submit Video</Link>
                         <Link to='/'>Ambassadors</Link>
                         <Link to='/'>Agency</Link>
                         <Link to='/'>Influencer</Link>
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <h2 style={{ textDecoration: 'underline' }}>Social Media</h2>
+                        <Link to='/'><FontAwesomeIcon icon={faInstagram} /> Instagram</Link>
+                        <Link to='/'><FontAwesomeIcon icon={faFacebook} /> Facebook</Link>
+                        <Link to='/'><FontAwesomeIcon icon={faYoutube} /> Youtube</Link>
+                        <Link to='/'><FontAwesomeIcon icon={faTwitter} /> Twitter</Link>
                     </div>
                 </div>
             </div>
