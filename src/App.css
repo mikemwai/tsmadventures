@@ -19,6 +19,7 @@
   font-size: 3rem;
 }
 
+/* About Us */
 .about-us {
   background-image: url('../public/images/about-us.jpg');
   background-position: center;
@@ -26,8 +27,53 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  flex-direction: column; 
+  text-align: center; 
 }
 
+.about-us-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-us-image {
+  width: 200px; 
+  height: 200px;
+}
+
+.about-us-text {
+  width: 50%; 
+  color: #818181;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.about-us-heading1 {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 200px;
+  text-decoration: underline; 
+}
+
+.about-us-container {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  margin: auto; 
+  max-width: 1200px; 
+}
+
+/* Updates */
 .updates {
   background-image: url('../public/images/updates.jpg');
   background-position: center;
@@ -37,6 +83,7 @@
   font-size: 100px;
 }
 
+/* Contact */
 .contact {
   background-image: url('../public/images/updates.jpg');
   background-position: center;
@@ -46,6 +93,7 @@
   font-size: 100px;
 }
 
+/* Services */
 .services {
   background-image: url('../public/images/img-2.jpg');
   background-position: center;
@@ -55,6 +103,7 @@
   font-size: 100px;
 }
 
+/* Products */
 .products {
   background-image: url('../public/images/img-1.jpg');
   background-position: center;
@@ -64,6 +113,7 @@
   font-size: 100px;
 }
 
+/* Sign Up */
 .sign-up {
   background-image: url('../public/images/img-8.jpg');
   background-position: center;
@@ -71,4 +121,31 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .about-us-content {
+    flex-direction: column;
+  }
+
+  .about-us-text {
+    width: 100%; 
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about-us-heading1 {
+    text-align: center; 
+    margin-right: auto;
+    margin-left: auto;
+  } 
+
+  .about-us-text {
+    order: 2;
+  }
+
+  .about-us-image {
+    order: 3;
+  }
 }
