@@ -36,7 +36,7 @@ function Footer
                     </div> */}
                     <div class='footer-link-items'>
                         <h2 style={{ textDecoration: 'underline' }}>Contact Us</h2>
-                        <Link to='/'>Contact</Link>
+                        <Link to='/contact'>Contact</Link>
                         <Link to='/'>Support</Link>
                         <Link to='/'>Destinations</Link>
                         <Link to='/'>Sponsorships</Link>
