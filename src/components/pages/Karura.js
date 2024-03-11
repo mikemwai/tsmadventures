@@ -58,9 +58,9 @@ function Karura() {
           display: 'flex', 
           justifyContent: 'center', 
           alignItems: 'center', 
-          maxWidth: '500px', 
+          maxWidth: '90vw', 
           height: '100%',
-          marginLeft: '300px'  
+          marginLeft: '5vw'  
         }}>
           <ImageGallery items={images} />
         </div>
