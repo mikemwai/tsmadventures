@@ -30,6 +30,14 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--icon
+{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+}
+
 .btn--secondary
 {
     background-color: transparent;

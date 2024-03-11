@@ -58,24 +58,13 @@ function Navbar() {
                 Updates
               </Link>
             </li>
-            {/* <li className='nav-item'>
-              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                Services
+            <li className='nav-item'>
+              <Link to='/sign-in' className='nav-links-mobile' onClick={closeMobileMenu}>
+                Sign In
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                Products
-              </Link>
-            </li> */}
-            <li className='nav-item'>
-              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Sign Up
-              </Link>
-            </li>
-
             </ul>
-            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+            {button && <Button buttonStyle='btn--icon'><i className="fa fa-user" aria-hidden="true"></i></Button>}
         </div>
     </nav>
     </>
