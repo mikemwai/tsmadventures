@@ -7,7 +7,9 @@
   z-index: -1;
 } */
   
-.hero-container {
+.hero-container 
+{
+  background: url('../../public/images/img-home.jpg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -16,25 +18,6 @@
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
-  background-size: cover;
-  background-position: center;
-  animation: slide 20s infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes slide {
-  0% {
-    background-image: url('../../public/images/img-home.jpg');
-  }
-  33% {
-    background-image: url('../../public/images/img-8.jpg');
-  }
-  66% {
-    background-image: url('../../public/images/img-9.jpg');
-  }
-  100% {
-    background-image: url('../../public/images/img-2.jpg');
-  }
 }
 
 .hero-container > h1
@@ -65,6 +48,57 @@
 .fa-play-circle
 {
   margin-left: 4px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  z-index: 10;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.image-indicator {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  margin: 0 5px;
+  opacity: 0.5;
+}
+
+.circle.active {
+  opacity: 1;
 }
 
 @media screen and (max-width: 968px)
