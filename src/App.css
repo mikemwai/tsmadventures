@@ -14,7 +14,7 @@
 .contact,
 .services,
 .products,
-.sign-up {
+.sign-in {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -208,8 +208,8 @@
   font-size: 100px;
 }
 
-/* Sign Up */
-.sign-up {
+/* Sign In */
+.sign-in {
   background-image: url('../public/images/img-8.jpg');
   background-position: center;
   background-size: cover;
