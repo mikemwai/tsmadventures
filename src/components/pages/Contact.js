@@ -11,7 +11,7 @@ function Contact() {
                     <img src="images/contact.jpg" alt="Contact us" className="contact-us-image" />
                     <div className="contact-details">
                         <h1 style={{ textDecoration: 'underline' }}><strong>TSM Adventures - Head Office</strong></h1>
-                        <p><strong>Phone:</strong> +254 234 567 890</p>
+                        <p><strong>Phone:</strong> +254 799 360 245</p>
                         <p><strong>Email:</strong> info@tsmadventures.com</p>
                         <p><strong>Area:</strong> Embakasi</p>
                         <p><strong>County:</strong> Nairobi</p>
