@@ -60,7 +60,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link to='/sign-in' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Sign In
+                <i className="fa fa-user" aria-hidden="true" style={{marginRight: '10px'}}></i>SIGN IN
               </Link>
             </li>
             </ul>
