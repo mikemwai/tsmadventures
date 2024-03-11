@@ -11,7 +11,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/karura9.jpeg'
               text='Explore the beautiful Karura Forest in Nairobi, Kenya.'
               label='Adventure'
               path='/karura'
