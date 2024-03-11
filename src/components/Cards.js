@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import { Button } from './Button';
 
 function Cards() {
   return (
@@ -13,42 +14,24 @@ function Cards() {
               src='images/img-9.jpg'
               text='Explore the beautiful Karura Forest in Nairobi, Kenya.'
               label='Adventure'
-              path='/updates'
+              path='/karura'
             />
             <CardItem
               src='images/img-2.jpg'
               text='Travel through the Mombasa Island in a Private Cruise.'
               label='Luxury'
-              path='/updates'
+              path='/karura'
             />
             <CardItem
               src='images/img-7.jpg'
               text='Travel through Kenya without any limitations.'
               label='Freedom'
-              path='/updates'
+              path='/karura'
             />
           </ul>
-          {/* <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Indian Ocean visiting Uncharted Waters.'
-              label='Mystery'
-              path='/updates'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on top of Lamu.'
-              label='Adventure'
-              path='/updates'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Turkana Desert on a guided camel tour.'
-              label='Adrenaline'
-              path='/updates'
-            />
-          </ul> */}
         </div>
+        <Button className='btns' buttonStyle='btn--secondary' buttonSize='btn--large' buttonLink='/updates' style={{marginLeft: '1000px' }}>
+            CHECK OUT MORE UPDATES</Button>
       </div>
     </div>
   );

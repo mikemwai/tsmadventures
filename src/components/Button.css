@@ -1,6 +1,8 @@
 :root
 {
  --primary: #fff;
+ --secondary: #242424;
+ ;
 }
 
 .btn
@@ -25,6 +27,18 @@
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--secondary
+{
+    background-color: transparent;
+    color: #242424;
+    padding: 8px 20px;
+    border: 1px solid var(--secondary);
+    transition: all 0.3s ease-out;
+    align-items: center;
+    justify-content: center;
     transition: all 0.3s ease-out;
 }
 
