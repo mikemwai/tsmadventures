@@ -60,7 +60,7 @@ function Karura() {
           alignItems: 'center', 
           maxWidth: '90vw', 
           height: '100%',
-          marginLeft: '5vw'  
+          marginLeft: '0vw'  
         }}>
           <ImageGallery items={images} />
         </div>
