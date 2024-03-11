@@ -9,6 +9,7 @@ import SignUp from './components/pages/SignUp';
 import Updates from './components/pages/Updates';
 import AboutUs from './components/pages/AboutUs';
 import Contact from './components/pages/Contact';
+import Karura from './components/pages/Karura';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/updates' element={<Updates />} />
+          <Route path='/karura' element={<Karura />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/services' element={<Services />} />
           <Route path='/products' element={<Products />} />
