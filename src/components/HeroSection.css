@@ -7,9 +7,7 @@
   z-index: -1;
 } */
   
-.hero-container 
-{
-  background: url('../../public/images/img-home.jpg') center center/cover no-repeat;
+.hero-container {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -18,6 +16,25 @@
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  animation: slide 20s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url('../../public/images/img-home.jpg');
+  }
+  33% {
+    background-image: url('../../public/images/img-8.jpg');
+  }
+  66% {
+    background-image: url('../../public/images/img-9.jpg');
+  }
+  100% {
+    background-image: url('../../public/images/img-2.jpg');
+  }
 }
 
 .hero-container > h1
