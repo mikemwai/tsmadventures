@@ -5,10 +5,6 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
   {
-    original: 'images/img-9.jpg',
-    // thumbnail: 'path_to_your_thumbnail_image.jpg',
-  },
-  {
     original: 'images/karura1.jpeg',
     // thumbnail: 'path_to_your_thumbnail_image.jpg',
   },
@@ -38,6 +34,10 @@ const images = [
   },
   {
     original: 'images/karura8.jpeg',
+    // thumbnail: 'path_to_your_thumbnail_image.jpg',
+  },
+  {
+    original: 'images/karura9.jpeg',
     // thumbnail: 'path_to_your_thumbnail_image.jpg',
   },
 ];
