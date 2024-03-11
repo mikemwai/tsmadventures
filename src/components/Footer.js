@@ -14,9 +14,9 @@ function Footer
             <p className="footer-subscription-heading">
               Subscribe for the newsletter to receive our best vacation deals
             </p>
-            <p className="footer-subscription-text">
+            {/* <p className="footer-subscription-text">
               Unsubscribe here.
-            </p>
+            </p> */}
             <div className="input-areas">
                 <form>
                     <input type="email" name="email" placeHolder="Your Email" className="footer-input" />
